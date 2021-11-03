@@ -9,8 +9,12 @@ using namespace std;
 int main()
 {
     
-    Node* n = new Node(8);
+    LinkedList * dude = new LinkedList();
 
+    dude->insert(9, 0);
+    dude->insert(11, 0);
+    dude->insert(15, 0);
+    dude->insert(99, 3);
     
 
 
