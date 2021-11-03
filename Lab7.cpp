@@ -14,8 +14,9 @@ int main()
     dude->insert(9, 0);
     dude->insert(11, 0);
     dude->insert(15, 0);
-    dude->insert(99, 3);
-    
+    int dudeLength = dude->getLength();
+    dude->insert(99, dudeLength);
+    cout << *dude << endl;
 
 
 }
